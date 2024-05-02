@@ -22,6 +22,7 @@ function AverageCalculator() {
       <h1>Average Calculator</h1>
       <select value={numberType} onChange={(e) => setNumberType(e.target.value)}>
         <option value="">Select Number Type</option>
+        
         <option value="p">Prime</option>
         <option value="f">Fibonacci</option>
         <option value="e">Even</option>
